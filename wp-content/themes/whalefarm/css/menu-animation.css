@@ -1,0 +1,233 @@
+.navbar-light .navbar-nav .nav-link::before{
+	content: '';
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	background-color: var(--primary-clr);
+	z-index: -1;
+	transform: scaleX(0);
+	transition: transform 500ms ease-in-out;
+	border-radius: 5px;
+	/* transform-origin: left; */
+}
+
+.navbar-light .navbar-nav .nav-link{
+	transition: color 1s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before,
+.navbar-light .navbar-nav .nav-link:focus::before{
+transform: scaleX(1);
+/* color: #fff!important; */
+}
+
+.navbar-light .navbar-nav .nav-link{
+	padding: 10px 20px; 
+	position: relative;
+	 
+	z-index: 1;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+	color: #fff!important;
+	 
+	/* background: var(--primary-clr); 
+	color: white!important;
+	border: 1px solid var(--primary-clr);
+	border-radius: 8px;
+ */}
+
+ #whale-nav{
+ 	padding-top: 20px;
+ }
+
+ .dropdown-menu.inner-submenu{
+ 	margin-top: 35px;
+ }
+ /* ul.dropdown-menu.inner-submenu.show:before{
+ 	font-family: FontAwesome;
+ 	content: "\f0d8";
+ 	position: absolute;
+ 	top: -80px;
+ 	left: 30px;
+ 	color: #0064a1fa;
+ 	font-size: 90px;
+ } */
+
+ .dropdown-menu {display: block;visibility: hidden;opacity:0;transform: translateY(50px);transition:.5s ease all;}
+ .dropdown-menu.show {display: block;visibility: visible;opacity:1;transform: translateY(0px);transition:.5s ease all;}
+
+ .header .dropdown-menu li a {
+ 	transition: background 2s;
+
+
+ }
+ .header ul li a:hover{
+ 	font-weight: 600;
+ }
+
+ .home-banner-sect .learn-more-head-btn, .home-contact-form-sect .whale-contact-form .whale-form-submit-btn{
+ 	transition: background 1s;
+
+ }
+  .home-banner-sect .learn-more-head-btn:hover,
+  .home-contact-form-sect .whale-contact-form .whale-form-submit-btn:hover{
+  	background: var(--primary2-clr);
+  	border: 1px solid var(--primary2-clr);
+  	color: white;
+  }
+
+
+
+  /* ==== 	objectverlay === */
+  /* The Overlay (background) */
+  .mobileOverlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(1,86,250); /* Black fallback color */
+    background-color: rgba(1,86,250,1); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    /* transition: 0.5s; 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+
+  .mobileOverlay .nav-mobile{
+    transform: translate(-200vw,0);
+        transition: transform .5s,opacity .2s,-webkit-transform .5s;
+  }
+  .mobileOverlay .nav-mobile.nav-mobile-is-open{
+    transform: translate(0,0)!important;
+  }
+
+  /* Position the content inside the overlay */
+  .mobileOverlay .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+
+  /* The navigation links inside the overlay */
+  .mobileOverlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .mobileOverlay a:hover, .mobileOverlay a:focus {
+    color: #f1f1f1;
+  }
+
+  /* Position the close button (top right corner) */
+  .mobileOverlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 60px;
+  }
+
+
+
+  .mobileOverlay nav.nav-mobile{
+  	    position: absolute;
+  	    top: 8%;
+  	    left: 5%;
+  	
+  }
+
+  .header .mobileOverlay nav.nav-mobile ul li a{
+    	font-size: 20px;
+    	font-weight: 600;
+    	color: #fff!important;
+    	padding-left: 10px;
+    	padding-right: 10px;
+
+    }
+    .header .mobileOverlay nav.nav-mobile ul li a.active{
+    	color: var(--primary2-clr)!important;
+
+    }
+
+    .header .mobileOverlay nav.nav-mobile ul li a.active:after{
+    	content: '';
+    	display: block;
+    	width: 60px;
+    	background:  var(--primary2-clr);
+    	height: 2px;
+    }
+
+    .header .mobileOverlay ul li.nav-item{
+    	margin-right: 0;
+    }
+
+ .header .mobileOverlay nav.nav-mobile ul li a.have-sub-menu:after{
+ 	display: inline-block;
+ 	width: 0;
+ 	height: 0;
+ 	margin-left: 0.255em;
+ 	vertical-align: 0.255em;
+ 	content: "";
+ 	border-top: 0.3em solid;
+ 	border-right: 0.3em solid transparent;
+ 	border-bottom: 0;
+ 	border-left: 0.3em solid transparent;
+ }   
+ .header .mobileOverlay nav.nav-mobile ul.first-level-dropdown li a{
+ 	font-size: 18px;
+ }
+.header .mobileOverlay .closebtn{
+	font-size: 60px!important;
+	color: #fff!important;
+	z-index: 9999;
+}
+
+.header .mobileOverlay ul.navbar-nav{
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+
+.header .mobileOverlay ul.have-border:after{
+	content: '';
+	height:  2px;
+	background: #fff;
+	display: block;
+	width: 80%;
+	position: relative;
+	left: 12px;
+
+/* border-bottom: 1px solid #fff; */
+}
+.header .mobileOverlay ul.have-transition{
+	transition: 1s;
+}
+
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .mobileOverlay a {font-size: 20px}
+   .mobileOverlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+  /* ==== End Overlay === */
+
+ /* .header .dropdown-menu.inner-submenu li{border-radius: 10px;} */
+
+
+ @media screen  and (max-width: 992px){
+ 	div#whale-nav{
+ 		display: none!important;
+ 	}
+ }

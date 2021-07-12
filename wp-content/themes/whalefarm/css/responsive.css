@@ -1,0 +1,642 @@
+@media screen and (max-width:1600px){
+
+.header ul li a.nav-link, .header ul li a{
+  font-size: 18px;
+}
+.header .dropdown-menu li a{
+  font-size: 16px;
+}
+.home-banner-sect .head-title{
+  font-size: 60px;
+}
+.home-banner-sect .heads-text .head-sub-heading{
+  font-size: 36px;
+}
+.home-banner-sect .learn-more-head-btn{
+  font-size: 18px;
+  width: 200px;
+}
+.our-mission-sect .mission-mainhead{
+  font-size: 48px;
+}
+.our-mission-sect .lower-sub-head{
+  font-size: 28px;
+}
+.our-mission-sect .our-mission-text-div p, .mission-divs .whale-para, .our-mission-sect .mission-bottom-para p{
+  font-size: 18px;
+}
+.home-clients-section .client-sect-content p{
+  font-size: 18px;
+}
+.home-contact-form-sect .whale-contact-form .whale-form-submit-btn{
+  font-size: 18px;
+  padding: 12px 30px;
+}
+.home-banner-sect{
+  max-height: 550px;
+  min-height: 550px;
+}
+
+
+/* === service detail page === */
+.category-content-section-main .service-cat-title{
+  font-size: 56px;
+}
+.category-content-section-main p{
+  font-size: 18px;
+}
+.category-content-section-main .services-cat-single-service-main .cat-service-title, 
+.category-content-section-main .services-cat-single-service-main .cat-service-title-anch{
+
+font-size: 24px;
+}
+
+.contact-page-main .contact-info p,.contact-info a{
+  font-size: 18px;
+}
+
+.blog-page .blog-content-main .blog-title, .blog-page .blog-content-main .card-title{
+  font-size: 18px;
+  font-weight: 600;
+}
+.blog-page .blog-content-main .blog-excerpt{
+  font-size: 16px;
+}
+.banner-area.page-banner-area{
+  min-height: 150px;
+  padding-top: 30px;
+}
+.single-post-content-sect .post-head {
+  font-size: 28px;
+}
+.single-detail-page .post-meta p, .single-detail-page .social-sharing .fa, .single-detail-page .post-inner-content p{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.single-detail-page .post-inner-content h2.post-inner-head{
+  font-size: 20px;
+}
+.header .dropdown-menu li a{
+  font-size: 15px;
+}
+.main-content.single-page p{
+  font-size: 20px!important;
+}
+
+}
+
+
+@media screen and (max-width: 1440px){
+
+}
+
+
+@media screen and (max-width:1200px){
+
+  .head-right-div .excerpt-txt{
+    font-size: 21px;
+  }
+  .services-listing-section .service-data-div .service-title{
+    font-size: 32px;
+  }
+  .services-listing-section .service-data-div a.service-link{
+    font-size: 14px;
+  }
+  .services-listing-section .service-data-div p{
+    font-size: 16px;
+  }
+  .main-content.single-page p{
+  font-size: 16px!important;
+}
+
+.landing-head-section .web-sub-head-txt{
+    font-size: 23px!important;
+  }
+
+
+ header .navbar-light .navbar-nav .nav-link{
+  font-size: 15px;
+  padding: 10px 7px!important ;
+ } 
+  
+}
+
+
+
+@media screen and (max-width:992px){
+  .head-title.first-title{
+    margin-left: 90px;
+  }
+  .header .talk-btn{
+    display: block;
+    margin:  0 auto;
+    margin-top: 10px;
+    position: relative;
+    left: -14px;
+  }
+  .header .navbar-nav .dropdown-menu{
+    max-width: 300px;
+    margin:  0 auto;
+  }
+  div#whale-nav {
+    border-top: 1px solid #80808030;
+    padding-top: 15px;
+}
+.header .dropdown-submenu a::after{
+  transform: none;
+}
+
+.works-page .services-related-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.works-page .services-related-section .related-head-text{
+
+font-size: 26px;
+line-height: 40px;
+}
+
+.works-page .work-head-para{
+  font-size: 18px;
+}
+
+.header .web-logo{
+  max-width: 60%;
+}
+
+.mobileOverlay .mobile-logo-div img{
+  max-width: 310px;
+}
+.whale-footer .footer-menu-div .footer-link-div{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.mobileOverlay .mobile-logo-div img{
+  max-width: 250px;
+}
+.header .web-logo img{
+  width: unset!important;
+  object-fit: unset!important;
+}
+
+.header .talk-btn{
+  width: 224px;
+  left: 0px;
+  top: -8px;
+  font-size: 20px;
+  background: #fff;
+  color: var(--primary-clr);
+  border: 1px solid #fff;
+}
+.header .talk-btn:focus{
+  background: #fff;
+  color: var(--primary-clr);
+  border: 1px solid #fff;
+
+}
+.header .web-logo{
+  max-width: 36%!important;
+}
+.landing-head-section .landing-page-content, .button-section .button-main-row{
+    padding: 0  0 !important;
+  }
+
+}
+
+@media screen and (max-width:768px){
+  
+  .home-banner-sect .head-title{
+    font-size: 42px;
+  }
+  .home-banner-sect .heads-text .head-sub-heading{
+    font-size: 32px;
+  }
+  .home-banner-sect .heads-para-icon .head-para-icon-inner{
+    max-width: 100%;
+  }
+  .home-banner-sect .heads-para-icon .head-para-icon-inner p{
+    font-size: 20px;
+  }
+  .home-banner-sect{
+    max-height: 550px;
+    min-height: 550px;
+  }
+
+
+  .services-listing-section .odd-service-div .order-md-1,.services-listing-section .even-service-div .order-md-1{
+    left: unset;
+  }
+  .banner-area.services-banner .head-left-div .page-title{
+    border-right: 0;
+  }
+  .banner-area.services-banner{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+.services-listing-section .listing-single-service-main .service-ftd-img{
+  padding: 0px;
+}
+.services-listing-section .listing-single-service-main .service-data-div{
+  margin-top: -72px;
+}
+.services-listing-section{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main.services-category-main{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.category-content-section-main p{
+  line-height: 35px;
+}
+.services-related-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.services-related-section .related-head-text{
+  font-size: 26px;
+  line-height: 40px;
+  text-align: center;
+}
+.services-related-section .related-single-div-main{
+  margin-bottom: 40px;
+}
+.related-content-main-div .more-work-btn .more-work-anch{
+  float: unset!important;
+  margin:  0 auto;
+}
+
+.single-post-content-sect .post-head{
+  font-size: 22px;
+  line-height: 36px;
+}
+
+/* --- 06 June 2021 --- */
+
+.home-banner-sect .learnmore-div{
+  display: none;
+}
+.home-banner-sect .head-title{
+  font-size: 52px;
+  margin-left: 0;
+}
+.our-mission-sect .mission-div-main .mission-icon{
+  display: none;
+}
+.our-mission-sect .mission-divs .mission-number{
+  display: block!important;
+}
+.home-contact-form-sect{
+  padding-top: 0px!important;
+}
+.reviews-page .home-clients-section{
+  padding-bottom: 50px;
+}
+
+/* 1-6-again */
+
+.contact-page-main .home-contact-head{
+  margin-top: 60px;
+}
+.contact-page-main .home-contact-head .whale-contact-form{
+  margin-top: 20px!important;
+}
+
+.contact-page-main  .contact-info-map{
+
+  background:   #fafbfc; 
+  padding-bottom: 30px;
+
+}
+.contact-page-main  .home-contact-form-sect{
+  padding-bottom: 0px!important;
+}
+
+.whale-footer .mobile-top-logo .footer-link-div img{
+  max-width: 60%;
+}
+
+.header .web-logo{
+  max-width: 55%!important;
+}
+.clendaly-section .clendaly-wrapper, .land-work-wrapper{
+  padding: 0px 10px!important;
+}
+.landing-head-section{
+  padding: 30px 5px!important;
+}
+.landing-head-section .web-sub-head-txt{
+  font-size: 20px!important;
+  line-height: 30px!important;
+}
+.landing-head-section .web-head-small-txt{
+  font-size: 16px!important;
+}
+.landing-head-section .web-video-div .vd-frame{
+  max-width: 100%!important;
+}
+.trusted-sect .trusted-head{
+  font-size: 16px;
+}
+
+}
+
+@media screen and (max-width:580px){
+  .head-title.first-title{
+    margin-left: 50px;
+  }
+  h2.head-title.second-title{
+    margin-bottom: 50px;
+  }
+  .home-banner-sect .learn-more-head-btn{
+    border-radius: 10px;
+  }
+  .home-banner-sect .heads-para-icon .head-para-icon-inner p{
+    line-height: 34px;
+  }
+    .home-banner-sect{
+      max-height: 550px;
+          min-height: 550px;
+    }
+.our-mission-sect{
+  padding: 40px 0px;
+}
+.our-mission-sect .upper-sub-head{
+  font-size: 25px;
+}
+.our-mission-sect .mission-mainhead{
+  font-size: 32px;
+}
+.our-mission-sect .lower-sub-head{
+  font-size: 18px;
+}
+.our-mission-sect .our-mission-text-div p, .mission-divs .whale-para, .our-mission-sect .mission-bottom-para p{
+  font-size: 21px;
+  line-height: 34px;
+}
+.our-mission-sect .mission-divs .mission-div-head{
+  font-size: 23px;
+}
+.home-clients-section{
+  padding: 50px 30px;
+}
+.home-contact-form-sect{
+  padding: 60px 0px;
+}
+.home-contact-form-sect .whale-contact-form .whale-form-submit-btn{
+  font-size: 17px;
+}
+.home-clients-section .client-head{
+  font-size: 25px;
+}
+.home-clients-section .client-sect-content p{
+  width: 100%!important;
+}
+
+.category-content-section-main .service-cat-title{
+  font-size: 41px;
+  line-height: 45px;
+}
+.category-content-section-main p{
+  line-height: 28px;
+}
+.services-related-section .related-head-text{
+  text-align: left;
+}
+
+/* ====== Related portion section ====== */
+.related-content-main-div .related-single-div-main .content{
+  width: 100%;
+  max-width: 100%;
+}
+.related-content-main-div .related-single-div-main .content-image{
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.related-single-content-div-content.content-details.fadeIn-bottom{
+  position: unset;
+  display: contents;
+}
+.related-content-main-div .rel-text.content-text{
+  color: black;
+}
+.services-related-section .related-single-div-main{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.services-related-section .related-single-div-main{
+  box-shadow: 0px 20px 22px -16px #80808066;
+}
+
+.related-content-main-div .rel-text.content-text{
+  text-align: left;
+      margin-top: 30px;
+      margin-bottom: 25px;
+      padding-left: 15px;
+}
+.main.services-category-main{
+  padding-bottom: 0px;
+}
+
+
+/* ---- 06 June 2021 --- */
+
+
+.home-banner-sect .heads-text{
+  margin-top: 10px!important;
+
+}
+.home-banner-sect .head-title.first-title{
+  margin-left: 0px;
+
+  /* margin-top: 0px!important; */
+}
+.home-banner-sect .head-title{
+  font-size: 44px;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+h2.head-title.second-title{
+  margin-bottom:  20px;
+
+}
+.home-banner-sect .heads-text .head-sub-heading{
+  font-size: 22px;
+}
+.home-banner-sect .heads-para-icon .head-para-icon-inner p{
+  line-height: 32px!important;
+  font-weight: normal!important;
+}
+
+
+.home-banner-sect{
+  max-height: 450px;
+  min-height: 450px;
+}
+.mission-divs .mission-div-main{
+ padding-top: 0px!important;
+ text-align: left!important;
+ padding-bottom: 20px!important;
+}
+.our-mission-sect .mission-divs .mission-div-head{
+  font-weight: 700;
+}
+.our-mission-sect .mission-divs p.mission-para, .our-mission-sect .our-mission-text-div p{
+  font-size: 18px;
+  line-height: 25px;
+}
+.our-mission-sect{
+  padding-bottom: 0px!important;
+}
+
+
+/* == again 1-6=== */
+.mission-divs .mission-div-main{
+  background:  #fafbfc;
+}
+.reviews-page .home-clients-section .client-single-item-wrap{
+  background:   #fafbfc;
+}
+.reviews-page .client-sect-content{
+  margin-bottom: 20px!important;
+}
+
+
+}
+
+@media screen and (max-width:480px){
+
+  .home-banner-sect .head-title{
+    font-size: 28px;
+  }
+  .home-banner-sect .heads-text .head-sub-heading{
+    font-size: 25px;
+  }
+  .home-banner-sect .learn-more-head-btn{
+    width: 180px;
+    font-size: 14px;
+  }
+  .whale-footer .footer-menu-div .footer-link-div{
+    padding:  18px;
+  }
+  .home-contact-form-sect .whale-contact-form .whale-form-submit-btn{
+    padding:  20px 25px;
+    font-size: 14px;
+  }
+  .head-title.first-title{
+        margin-left: 30px;
+  }
+  .home-banner-sect .head-title{
+    font-size: 25px;
+  }
+  .our-mission-sect .mission-mainhead{
+    font-size: 24px;
+  }
+  .our-mission-sect .upper-sub-head{
+    font-size: 20px;
+  }
+  .our-mission-sect .lower-sub-head{
+    font-size: 16px;
+  }
+  .our-mission-sect .our-mission-text-div p, .mission-divs .whale-para, .our-mission-sect .mission-bottom-para p{
+    font-size: 16px;
+  }
+  .home-clients-section .client-head{
+    font-size: 22px;
+  }
+  .home-clients-section .client-sect-content p{
+    font-size: 16px;
+  }
+  .header ul li a.nav-link, .header ul li a{
+    font-size: 16px;
+  }
+  .header .talk-btn{
+    font-size: 14px;
+  }
+  .services-listing-section .col-md-6.service-data-div{
+    padding: 20px;
+  }
+  .banner-area.page-banner-area .page-head-div .page-title{
+    text-align: center!important;
+  }
+  .home-contact-form-sect .home-contact-head .head-txt{
+    font-size: 26px;
+  }
+
+  /* == 01 June 2021 == */
+  .home-banner-sect .head-title{
+    font-size: 34px;
+    line-height: 31px;
+  }
+
+  .header .navbar-toggler-icon{
+    width: 35px;
+    height: 30px;
+  }
+  .mobileOverlay .mobile-logo-div img{
+  max-width: 260px;
+  width: 100%;
+}
+.mobileOverlay nav.nav-mobile{
+  top: 15%!important;
+}
+.header .mobileOverlay .closebtn{
+  top: -15px;
+      right: 4px;
+}
+.header .mobileOverlay .mobile-logo-div{
+  margin-bottom: 30px!important;
+}
+.header .navbar-toggler{
+  margin-top: 8px;
+}
+.header .navbar.bg-light{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.header .web-logo{
+  max-width: 75%;
+}
+.header .navbar-toggler-icon{
+  height: 20px;
+  width: 30px!important;
+}
+.header .web-logo img{
+  max-width: 72%;
+  margin-left: 15px;
+}
+
+.header .talk-btn{
+  left: 30px;
+}
+
+
+
+  
+}
+
+@media screen and (max-width:380px){
+  .services-listing-section .service-data-div .service-title{
+    font-size: 26px;
+  }
+
+  /* ==== 01 June 2021 === */
+  .home-banner-sect .head-title{
+    font-size: 28px;
+    font-weight: 800;
+  }
+  .home-banner-sect .heads-text .head-sub-heading{
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .home-banner-sect .heads-para-icon .head-para-icon-inner p{
+    line-height: 28px!important;
+  }
+  
+}
